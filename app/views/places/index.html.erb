@@ -1,0 +1,10 @@
+<div class="span4 offset4 text body-center">
+<h1> Latest Places </h1>
+<% if @place.present? %>
+Title: <%= @place.title %>
+<br/>
+Address: <%= @place.address %>
+<%else %>
+	<h2> enter a place </h2>
+<% end %>	
+</div>
